@@ -1,0 +1,169 @@
+/* menu sidebar */
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: rgba(150, 150, 150, 0.35);
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+.sidebar a.active {
+    background-color: #9d9d9d;
+    color: white;
+}
+
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+@media screen and (max-width: 700px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+
+    .sidebar a {
+        float: left;
+    }
+
+    div.content {
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .sidebar a {
+        text-align: center;
+        float: none;
+    }
+}
+
+/* menu sidebar done */
+
+/* portfolio */
+
+#portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-family: 'Open Sans Condensed', sans-serif;
+    overflow: hidden;
+}
+
+
+
+/* column-1 */
+
+/*.column-1 {
+    flex-grow: 200px;
+    flex-basis: 1;
+    margin-top: vw;
+
+
+} */
+
+@media only screen and (max-width : 230px) {
+
+    .frida {
+        width: 30px;
+        height: auto;
+
+    }
+}
+
+@media only screen and (min-device-width : 768px) {
+
+    .frida {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-device-width : 1024px) {
+
+    .frida {
+        width: 400px;
+        height: auto;
+        margin-left: 10vw;
+        margin-top: 1vw;
+    }
+}
+
+.container-1 {
+    margin: 1vw;
+}
+
+/* column-2 */
+
+
+.column-2 {
+    flex-grow: 200px;
+    flex-basis: 1;
+    margin-top: 1.5vw;
+    margin-left: 20vw;
+    margin-right: 5vw;
+}
+
+
+
+@media only screen and (min-width : 321px) {
+
+    .ringsted {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (max-width : 320px) {
+
+    .ringsted {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-device-width : 768px) {
+
+    .ringsted {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media only screen and (min-device-width : 1024px) {
+
+    .ringsted {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* column-3 */
+
+
+/* column-4 */
+
+
+/* portfolio done */
+
+
+/* cv */
+/* cv done */
